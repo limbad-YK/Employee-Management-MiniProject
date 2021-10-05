@@ -6,10 +6,9 @@ import java.awt.event.*;
 import java.sql.*;
 
 public class Main extends JFrame implements ActionListener {
-    static final String url="jdbc:mysql://localhost/yash";
-    static final String user="Yash";
-    static final String pass="pw00";
-    static String query="insert into employee values(1,'yash','limbad','upleta','2020-09-20')";
+    static final String url="jdbc:mysql://localhost/";
+    static final String user="root";
+    static final String pass="password";
 
     static int id;
     static String first_name;
